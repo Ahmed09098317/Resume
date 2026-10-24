@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Personal portfolio and resume of Abu Sayeed Ahmed, Computer Science Engineering student.">
+<title>Abu Sayeed Ahmed | Portfolio & Resume</title>
+<style>
+:root{--bg:#0b1020;--panel:#121a2e;--text:#edf2ff;--muted:#aab6d3;--accent:#6ee7d8;--line:#273450}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:radial-gradient(circle at 80% 0%,#182b4b 0,transparent 35%),var(--bg);color:var(--text);line-height:1.65}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}.wrap{width:min(1050px,92%);margin:auto}
+nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0;gap:16px;flex-wrap:wrap;border-bottom:1px solid var(--line)}.brand{font-weight:800;letter-spacing:.3px}.navlinks{display:flex;gap:18px;flex-wrap:wrap;font-size:.94rem}
+.hero{padding:78px 0 58px;display:grid;grid-template-columns:1.5fr .8fr;gap:35px;align-items:center}.eyebrow{color:var(--accent);font-weight:700;text-transform:uppercase;letter-spacing:2px;font-size:.78rem}
+h1{font-size:clamp(2.4rem,6vw,4.4rem);line-height:1.08;margin:12px 0 18px;letter-spacing:-1.5px}.lead{font-size:1.12rem;color:var(--muted);max-width:650px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}
+.btn{display:inline-block;padding:11px 17px;border-radius:12px;border:1px solid var(--line);font-weight:700}.primary{background:var(--accent);color:#07111d;border-color:var(--accent)}.card{background:rgba(18,26,46,.88);border:1px solid var(--line);border-radius:20px;padding:23px;box-shadow:0 14px 40px #0002}.profile{aspect-ratio:1/1;display:grid;place-items:center;border-radius:18px;background:linear-gradient(135deg,#213c62,#15302f);font-size:5rem;font-weight:800;color:var(--accent);border:1px solid #35516a}
+section{padding:34px 0}h2{font-size:1.8rem;margin:0 0 18px}h3{margin:0 0 7px}.muted{color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.taglist{display:flex;flex-wrap:wrap;gap:9px}.tag{padding:6px 11px;border:1px solid #344562;border-radius:999px;color:#d9e4ff;font-size:.9rem}.project{min-height:180px}.project p{color:var(--muted)}.timeline{border-left:2px solid #36516d;padding-left:18px}.timeline article{margin-bottom:20px}.contact{display:flex;gap:14px;flex-wrap:wrap}.contact a{border:1px solid var(--line);border-radius:12px;padding:10px 13px}footer{border-top:1px solid var(--line);padding:25px 0;margin-top:35px;color:var(--muted);font-size:.9rem}
+@media(max-width:700px){.hero{grid-template-columns:1fr;padding-top:48px}.profile{max-width:180px}.grid{grid-template-columns:1fr}.navlinks{gap:12px}.hero{gap:25px}}
+</style>
+</head>
+<body>
+<header class="wrap">
+<nav><a class="brand" href="#home">ASA / Portfolio</a><div class="navlinks"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a></div></nav>
+</header>
+<main class="wrap">
+<section class="hero" id="home">
+<div><div class="eyebrow">Computer Science Engineering</div>
+<h1>Abu Sayeed<br>Ahmed<span style="color:var(--accent)">.</span></h1>
+<p class="lead">Final-year engineering student interested in software development, AI, computer vision, and immersive technologies. I enjoy building practical projects and learning by creating.</p>
+<div class="actions"><a class="btn primary" href="#projects">Explore my projects ↓</a><a class="btn" href="#contact">Contact me</a><a class="btn" href="resume.pdf" target="_blank" rel="noopener">View resume PDF ↗</a></div>
+<p class="muted" style="font-size:.85rem">To enable the PDF button, add your latest resume to this folder and name it <strong>resume.pdf</strong>.</p>
+</div>
+<div class="card"><div class="profile">ASA</div><p style="margin-bottom:0"><strong>Building. Learning. Improving.</strong></p><p class="muted" style="margin-top:4px">Open to entry-level software and technology opportunities.</p></div>
+</section>
+<section id="about"><h2>About me</h2><div class="card"><p class="muted" style="margin:0">I am a Computer Science Engineering student developing my skills through academic work and hands-on projects. My interests include web development, AI-based applications, computer vision, and extended reality (XR). I value clear problem-solving, teamwork, and continuous learning.</p></div></section>
+<section id="skills"><h2>Skills & interests</h2><div class="card"><div class="taglist"><span class="tag">Python</span><span class="tag">Java</span><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">Computer Vision</span><span class="tag">AI / ML</span><span class="tag">Web Development</span><span class="tag">Git & GitHub</span><span class="tag">Extended Reality (XR)</span></div><p class="muted" style="font-size:.9rem;margin-bottom:0">Edit this list to include only technologies you can confidently discuss in an interview.</p></div></section>
+<section id="projects"><h2>Featured projects</h2><div class="grid">
+<div class="card project"><h3>AI-Based Air Canvas System Using Extended Reality</h3><p>An immersive drawing concept focused on creating digital artwork using hand gestures in an XR environment. The project explores gesture-based interaction and virtual drawing.</p><span class="tag">XR</span> <span class="tag">Computer Vision</span> <span class="tag">Interaction</span></div>
+<div class="card project"><h3>Saathi Help Line</h3><p>A help-line oriented project concept designed to make support information easier to access. Add your exact features, technologies, and outcomes here.</p><span class="tag">Web Development</span></div>
+<div class="card project"><h3>Web Development Projects</h3><p>Web-based work created to practise responsive layouts, user interfaces, and core front-end development.</p><span class="tag">HTML</span> <span class="tag">CSS</span> <span class="tag">JavaScript</span></div>
+<div class="card project"><h3>More projects</h3><p>Add a short description, tools used, and a link to the code or live demo for each additional project.</p><a href="#contact">Ask me about my work →</a></div>
+</div></section>
+<section id="education"><h2>Education & learning</h2><div class="card timeline">
+<article><h3>Computer Science Engineering</h3><div class="muted">Mysore College of Engineering and Management</div><div class="muted">Engineering student · Update graduation year and details</div></article>
+<article><h3>Pre-University Education</h3><div class="muted">Huda PU College</div><div class="muted">Add completion year if desired</div></article>
+<article><h3>Additional learning</h3><div class="muted">Infosys Springboard · Glow Tech</div><div class="muted">Add exact course or certification names and dates.</div></article>
+</div></section>
+<section id="contact"><h2>Contact</h2><div class="card"><p class="muted">Use the links below to contact me or view my professional profile.</p><div class="contact"><a href="mailto:abusayeed090921@gmail.com">✉ Email</a><a href="https://www.linkedin.com/in/abu-sayeed-1ab66b383/" target="_blank" rel="noopener">LinkedIn profile</a><a href="https://github.com/" target="_blank" rel="noopener">GitHub profile</a></div><p class="muted" style="font-size:.85rem;margin-bottom:0">Add your GitHub profile URL when you have one. Upload your latest resume PDF to this folder as <code>resume.pdf</code> so the View resume PDF button works.</p></div></section>
+</main>
+<footer><div class="wrap">© <span id="year">2026</span> Abu Sayeed Ahmed · Personal portfolio</div></footer>
+</body>
+</html>
